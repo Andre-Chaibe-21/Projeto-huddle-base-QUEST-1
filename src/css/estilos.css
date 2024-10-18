@@ -1,0 +1,88 @@
+html {
+    background-color: hsl(257, 40%, 49%);
+}
+
+
+body {
+    background: url('../images/bg-desktop.svg') no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+}
+
+body .cabecalho {
+    padding: 10px;
+}
+
+body .cabecalho .logo {
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+body main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+main img {
+    padding: 30px;
+    max-width: 700px;
+}
+
+main .informacoes h1 {
+    font-size: 40px;
+    transform: translateY(-100px);
+    font-weight: 600;
+}
+
+main .informacoes p {
+    font-size: 20px;
+    transform: translateY(-70px);
+    line-height: 25px;
+    max-width: 570px;
+    color: rgb(214, 213, 213);
+}
+
+main .informacoes .botao {
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(257, 40%, 49%);
+    background-color: #fff;
+    padding: 15px 60px;
+    border-radius: 25px;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    top: -30px;
+}
+
+main .informacoes .botao:hover {
+    box-shadow: 1px 1px 10px 5px hsl(257, 40%, 38%);
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rodape .lista-redes {
+    gap: 20px;
+    display: flex;
+    transform: translate(-100px, -40px);
+}
+
+.rodape i {
+    padding: 16px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.rodape i:hover {
+    transform: scale(1.2);
+}

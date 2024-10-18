@@ -1,0 +1,106 @@
+@media (max-width: 1340px) {
+
+    body {
+        background: url('../images/bg-mobile.svg') no-repeat;
+        background-size: cover;
+    }
+
+    .cabecalho {
+        padding: 20px;
+    }
+
+    .cabecalho img.logo {
+        width: 170px;
+    }
+
+    main img {
+        max-width: 560px;
+        transform: translateY(-40px);
+
+    }
+
+    main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main .informacoes h1 {
+        transform: translateY(-5px);
+    }
+
+    main .informacoes p {
+        transform: translateY(10px);
+
+    }
+
+    main .informacoes .botao {
+        top: 70px;
+        padding: 13px 80px;
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .rodape .lista-redes  {
+        margin: 60px;
+        transform: translateY(90px);
+    }
+
+    
+    .rodape .lista-redes i  {
+        margin: 60px 0px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .cabecalho {
+        padding-bottom: 20px;
+    }
+
+
+    .cabecalho img.logo {
+        width: 130px;
+        margin-left: 40px;
+    }
+
+
+    main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main img {
+        margin-top: 40px;
+        max-width: 350px;
+    }
+
+    main .informacoes h1 {
+        transform: translateY(10px);
+        font-size: 26px;
+    }
+
+    main .informacoes p {
+        font-size: 16px;
+        transform: translateY(30px);
+        max-width: 300px;
+    }
+
+    main .informacoes .botao {
+        top: 70px;
+        font-size: 14px;
+        border-radius: 25px;
+    }
+
+    .rodape .lista-redes i {
+        font-size: 14px;
+        padding: 10px;
+        margin: 20px 0px;
+    }
+
+}
