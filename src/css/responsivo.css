@@ -1,3 +1,19 @@
+ @media (min-width:1500px){
+
+  main {
+    transform: translateY(20%);
+    max-width: 1440px;
+    margin: 0 auto;
+  } 
+  
+  .rodape {
+    transform: translate( -4%, 112%);
+    /* transform: translate(-100px, -40px); */
+  }
+
+  
+} 
+
 @media (max-width: 1340px) {
 
     body {

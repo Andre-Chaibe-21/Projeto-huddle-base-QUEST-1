@@ -61,6 +61,8 @@ main .informacoes .botao {
 
 main .informacoes .botao:hover {
     box-shadow: 1px 1px 10px 5px hsl(257, 40%, 38%);
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
 }
 
 .rodape {
@@ -75,7 +77,15 @@ main .informacoes .botao:hover {
     transform: translate(-100px, -40px);
 }
 
+
 .rodape i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    width: 50px;  
+    height: 50px;
     padding: 16px;
     border: 1px solid;
     border-radius: 50%;
@@ -84,5 +94,6 @@ main .informacoes .botao:hover {
 }
 
 .rodape i:hover {
-    transform: scale(1.2);
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
 }
